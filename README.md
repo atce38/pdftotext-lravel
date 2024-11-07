@@ -1,66 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://edu.abidingtech.com/" target="_blank"><img src="https://edu.abidingtech.com/logo.png" width="400" alt="Abiding Tech Computer Education Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/atce38/pdftotext-lravel.git/actions"><img src="https://github.com/atce38/pdftotext-lravel.git/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Abiding Tech Computer Education
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Abiding Tech Computer Education is a leading institute offering high-quality technical training in various fields such as Web Development, Mobile App Development, Graphic Designing, and more. We are committed to equipping students with the necessary skills and knowledge to succeed in the ever-evolving tech industry. Our courses are designed to be practical and hands-on, providing students with real-world experience.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Features of the Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project is a **PDF to Text Conversion system** built using **Laravel**. It allows users to upload PDF files and extract text content from them. Below are some key features of the application:
 
-## Learning Laravel
+- **PDF Upload**: Users can upload PDF files through an intuitive web interface.
+- **Text Extraction**: The system extracts and displays text content from the uploaded PDFs.
+- **Error Handling**: Graceful error messages in case of invalid PDFs or extraction failures.
+- **Clean and User-Friendly UI**: Built using Laravel and Bootstrap for a seamless user experience.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Prerequisites
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Before you begin, ensure you have the following installed:
 
-## Laravel Sponsors
+- PHP 8.1 or higher
+- Composer
+- Laravel 10.x
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Steps
 
-### Premium Partners
+1. Clone the repository:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+   ```bash
+   git clone https://github.com/atce38/pdftotext-lravel.git
+Navigate to the project directory:
 
-## Contributing
+bash
+Copy code
+cd pdftotext-lravel
+Install the dependencies:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+bash
+Copy code
+composer install
+Copy the .env.example file to .env:
 
-## Code of Conduct
+bash
+Copy code
+cp .env.example .env
+Generate the application key:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+bash
+Copy code
+php artisan key:generate
+Set up your database credentials in the .env file and run migrations:
 
-## Security Vulnerabilities
+bash
+Copy code
+php artisan migrate
+Serve the application:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+bash
+Copy code
+php artisan serve
+Open your browser and go to http://127.0.0.1:8000 to start using the app.
 
-## License
+Contributing
+We welcome contributions! If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+License
+This project is open-sourced software licensed under the MIT license.
+
+Website
+For more information about Abiding Tech Computer Education, visit our website: Abiding Tech Computer Education
+
+vbnet
+Copy code
+
+This version includes your organization name and repository link, and it is updated with your 
